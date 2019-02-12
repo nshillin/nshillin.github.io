@@ -1,0 +1,189 @@
+/* CC BY-SA 4.0 2017 Panayioti Koukoulas and Noah Shillington. */
+
+/* Colors thanks to https://www.w3schools.com/colors/colors_picker.asp?colorhex=808080 */
+
+body {
+	font: 'Helvetica';
+	width: 100%;
+  margin: 0 auto;
+	height: 100%;
+	min-height: 100%;
+}
+
+h1 {
+	line-height: 0.5
+}
+
+h2 {
+	padding-bottom: 0.25em;
+  margin: 0;
+}
+
+h3 {
+	font-size: 16pt;
+	font-style: italic;
+	line-height: 0.05
+}
+
+h4 {
+	color: #458aa8;
+	margin-bottom:0;
+}
+
+a:link {
+    color: #458aa8;
+}
+
+a:visited {
+    color: #a872a5;
+}
+
+.leftBar {
+
+}
+
+.rightBar {
+	content: "";
+	margin: 0;
+  padding: 0;
+  float: left;
+  height: 700px;
+  width: 100%;
+  background: #009999;
+}
+
+li {
+	display: inline;
+}
+
+.topBar {
+	height: 2em;
+	background: saddlebrown;
+	background-image: url("assets/header.jpg");
+}
+
+.header {
+	padding-top: 1em;
+	color: white;
+	text-align: center;
+	background: radial-gradient(ellipse at center, #17a5ca 20%, #00659c 80%);
+}
+
+/* http://stackoverflow.com/a/37832765/7010980 Harry */
+
+.logo {
+	padding-right:5%;
+	padding-left:5%;
+	font-size: 60pt;
+	background-image: linear-gradient(to bottom, white 60%, #ecd7b3 95%);
+	color: transparent;
+  -webkit-background-clip: text;
+}
+
+.logo::first-line{
+	line-height: 0.75;
+	font-size: 40pt;
+	text-align: right;
+}
+
+.slogan {
+	padding-right:25%;
+	padding-left:10%;
+	padding-bottom:1.5em;
+	font-size: 12pt;
+	color: white;
+}
+
+.header .mainNav {
+	background: linear-gradient(to bottom, #36322f 0%,#5e5e5e 100%);
+	padding: 5pt;
+}
+
+.mainNav li {
+	font-size: 14pt;
+	color: white;
+	margin: 0.5em
+}
+
+ol {
+	padding: 0em;
+	margin-top: 0em;
+	margin-bottom: 0px;
+}
+
+.mainNav a {
+	color: white;
+	text-decoration: none;
+}
+
+.mainNav a:hover {
+	color: #17a5ca;
+}
+
+.sidebars {
+	margin: 0.5em;
+  width: 10em;
+  float: right;
+	text-align: center;
+}
+
+.sidebar1 {
+	padding-bottom: 1em;
+	padding-top: 1em;
+	background-color: #efefef;
+}
+
+.sidebar2 {
+	padding-top: 3.5em;
+	padding-bottom: 1em;
+	width: 10em;
+	text-align: center;
+}
+
+.sidebar2 a {
+	font-size: 10pt;
+	color: #a78360;
+	text-decoration: none;
+}
+
+.sidebar2 img {
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+	margin: 1em;
+}
+
+.content img {
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+}
+
+/* http://stackoverflow.com/a/689290/7010980 Jon Winstanley */
+
+.footer {
+	clear: both;
+  position: relative;
+  height: 2em;
+  margin-top: -2em;
+	background: saddlebrown;
+	background-image: url("assets/footer.jpg");
+	width: 100%;
+	font-size: 12pt;
+	color: white;
+	text-align: center;
+}
+
+.bottomNav {
+	padding-top: 0.5em;
+}
+
+.bottomNav li {
+	margin: 1em
+}
+
+.bottomNav a {
+	color: white;
+	text-decoration: none;
+}
